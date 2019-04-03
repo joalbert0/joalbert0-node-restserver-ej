@@ -15,8 +15,8 @@ if (process.env.NODE_ENV === 'dev') {
     console.log("desarollo");
 } else {
 
-    urlDB = 'mongodb+srv://hayabusaryu:ivnOXwd2v0H4vNX1@cluster0-ittoy.mongodb.net/cafe';
-
+    // urlDB = 'mongodb+srv://hayabusaryu:ivnOXwd2v0H4vNX1@cluster0-ittoy.mongodb.net/cafe';
+    urlDB + process.env.MONGO_URI;
     console.log("produccion");
 
 }
