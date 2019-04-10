@@ -13,8 +13,6 @@ app.get('/usuario', verificaToken, (req, res) => {
     //    email: req.usuario.email,
     // })
 
-
-
     //res.json('get Usuario')
     let desde = req.query.desde || 0;
     desde = Number(desde);
